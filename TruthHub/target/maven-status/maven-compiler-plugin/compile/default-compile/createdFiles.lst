@@ -1,0 +1,14 @@
+com\johnabbott\test\configuration\DatabaseConfiguration.class
+com\johnabbott\test\configuration\WebAppInitializer.class
+com\johnabbott\test\model\Teacher.class
+com\johnabbott\test\dao\HibernateStudentDaoImpl.class
+com\johnabbott\test\dao\StudentDaoImpl.class
+com\johnabbott\test\service\StudentService.class
+com\johnabbott\test\configuration\WebMvcConfig.class
+com\johnabbott\test\controller\TeacherController.class
+com\johnabbott\test\dao\StudentMapper.class
+com\johnabbott\test\controller\StudentController.class
+com\johnabbott\test\model\AddressEntity.class
+com\johnabbott\test\dao\StudentDao.class
+com\johnabbott\test\service\StudentServiceImpl.class
+com\johnabbott\test\model\StudentEntity.class
