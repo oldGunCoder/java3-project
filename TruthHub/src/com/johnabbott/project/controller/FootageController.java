@@ -67,7 +67,7 @@ public class FootageController {
 	}
 
 	@RequestMapping(value = "deletefootage")
-	public String deleteFootage(@RequestParam("studentId") int footageId) {
+	public String deleteFootage(@RequestParam("footageId") int footageId) {
 		if (service.deleteFootage(footageId)) {
 			return "redirect:/footages/getfootages";
 		}

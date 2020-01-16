@@ -8,6 +8,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
@@ -28,13 +29,15 @@ public class FootageEntity {
 	@Column(name = "location")
 	private String location;
 	
+	
+	
 //	@OneToOne(cascade = CascadeType.ALL)
-//	@JoinColumn(name = "address_id")
-//	private AddressEntity address;
+//	@JoinColumn(name = "publisher_id")
+//	private PublisherEntity publisher;
 	
 	@ManyToOne
 	@JoinColumn(name = "publisher_id")
-	private Publisher publisher;
+	private PublisherEntity publisher;
 	
 	public FootageEntity() {
 		
@@ -81,12 +84,12 @@ public class FootageEntity {
 	}
 
 	
-	public Publisher getPublisher() {
+	public PublisherEntity getPublisher() {
 		return publisher;
 	}
 
-	public void setPublisher(Publisher publisher) {
-		this.publisher = publisher;
+	public void setPublisher(PublisherEntity publisherEntity) {
+		this.publisher = publisherEntity;
 	}
 	
 	

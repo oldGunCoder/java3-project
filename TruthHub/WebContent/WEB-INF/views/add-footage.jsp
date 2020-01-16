@@ -30,8 +30,8 @@
 
 				
 				<tr>
-					<td>Publisher's Username</td>
-					<td><form:input path="publisher.username" /></td>
+					<td>Publisher's Id</td>
+					<td><form:input path="publisher.id" /></td>
 				</tr>
 				<tr>
 					<td colspan="2"><input type="submit" value="Add footage"></td>

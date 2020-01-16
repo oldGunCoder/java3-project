@@ -50,13 +50,13 @@ public class FootageDaoImpl implements FootageDao {
 	}
 
 	@Override
-	public boolean updateFootage(FootageEntity std) {
+	public boolean updateFootage(FootageEntity ftg) {
 		int updateResult = jdbcTemplate.update
 				(SQL_UPDATE_FOOTAGE, 
-						std.getTitle(), 
-						std.getTime(), 
-						std.getLocation(),
-						std.getId());
+						ftg.getTitle(), 
+						ftg.getTime(), 
+						ftg.getLocation(),
+						ftg.getId());
 		return updateResult > 0;
 	}
 

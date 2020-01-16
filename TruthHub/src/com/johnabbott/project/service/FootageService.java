@@ -5,7 +5,7 @@ import java.util.List;
 import com.johnabbott.project.model.FootageEntity;
 
 public interface FootageService {
-	public boolean addFootage(FootageEntity ftg);
+	public boolean addFootage(FootageEntity ftg); //Add
 	
 	public List<FootageEntity> getFootages(); // Read
 	
