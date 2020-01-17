@@ -82,9 +82,9 @@ public class PublisherController {
 		}
 	}
 
-	@RequestMapping(value = "deletefootage")
-	public String deletePublisher(@RequestParam("studentId") int footageId) {
-		if (service.deletePublisher(footageId)) {
+	@RequestMapping(value = "deletepublisher")
+	public String deletePublisher(@RequestParam("publisherId") int publisherId) {
+		if (service.deletePublisher(publisherId)) {
 			return "redirect:/publishers/getpublishers";
 		}
 		else {

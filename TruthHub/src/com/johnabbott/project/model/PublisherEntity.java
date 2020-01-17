@@ -15,7 +15,7 @@ import javax.persistence.OneToMany;
 public class PublisherEntity {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "publisherId")
+	@Column(name = "id")
 	private int id;
 
 	@Column(name = "username")

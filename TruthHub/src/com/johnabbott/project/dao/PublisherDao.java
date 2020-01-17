@@ -11,7 +11,7 @@ public interface PublisherDao {
 	
 	public PublisherEntity getPublisherById(int publisherId); // Read
 	
-	public PublisherEntity getPublisherByUsername(String footageUsername); //Read
+	public PublisherEntity getPublisherByUsername(String publisherUsername); //Read
 	
 	public boolean deletePublisher(int publisherId); //DELETE
 	

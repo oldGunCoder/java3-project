@@ -52,8 +52,8 @@ public class HibernatePublisherDaoImpl implements PublisherDao {
 
 	@Override
 	public boolean deletePublisher(int publisherId) {
-		PublisherEntity fetchedFootage = getPublisherById(publisherId);
-		getSession().delete(fetchedFootage);
+		PublisherEntity fetchedPublisher = getPublisherById(publisherId);
+		getSession().delete(fetchedPublisher);
 		return true;
 	}
 

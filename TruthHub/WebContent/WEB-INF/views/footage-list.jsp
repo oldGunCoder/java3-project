@@ -25,10 +25,10 @@
 					<td><c:out value="${footage.title}"></c:out></td>
 					<td><c:out value="${footage.time}"></c:out></td>
 					<td><c:out value="${footage.location}"></c:out></td>
-					<td><a href="editstudent?studentId=${footage.id}">update
-							me!</a></td>
-					<td><a href="deletestudent?studentId=${footage.id}">delete
-							me!</a></td>
+					<td><a href="editfootage?footageId=${footage.id}">update
+							footage information!</a></td>
+					<td><a href="deletefootage?footageId=${footage.id}">delete
+							footage information!</a></td>
 				</tr>
 			</c:forEach>
 

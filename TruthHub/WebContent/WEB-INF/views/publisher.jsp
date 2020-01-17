@@ -7,10 +7,10 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>footage information</title>
+<title>publisher information</title>
 </head>
 <body>
-	<c:out value="${footageTitle}"></c:out>
-	<c:out value="${footageId}"></c:out>
+	<c:out value="${publisherUsername}"></c:out>
+	<c:out value="${publisherCountry}"></c:out>
 </body>
 </html>

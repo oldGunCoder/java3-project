@@ -5,32 +5,27 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>updating a footage</title>
+<title>updating a publisher</title>
 </head>
 <body>
 	<div align="center">
-		<form:form action="updateFootage" method="post" 
-			modelAttribute="editedfootage">
+		<form:form action="updatePublisher" method="post" 
+			modelAttribute="editedpublisher">
 			<table>
 					<form:hidden path="id" />
 				
 				<tr>
-					<td>Title</td>
-					<td><form:input path="title" /></td>
+					<td>Username</td>
+					<td><form:input path="username" /></td>
 				</tr>
 
 				<tr>
-					<td>Time</td>
-					<td><form:input path="time" /></td>
+					<td>Country</td>
+					<td><form:input path="country" /></td>
 				</tr>
 
 				<tr>
-					<td>Location</td>
-					<td><form:input path="location" /></td>
-				</tr>
-
-				<tr>
-					<td colspan="3"><input type="submit" value="update footage information"></td>
+					<td colspan="3"><input type="submit" value="update publisher information"></td>
 				</tr>
 			</table>
 
